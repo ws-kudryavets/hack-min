@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Box, Hr, Text, Span, Strong, Input } from "@quarkly/widgets";
+import { Theme, Link, Image, Box, Hr, Text, Span, Strong } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, Menu, Section, StackItem, Stack } from "@quarkly/components";
@@ -169,10 +169,6 @@ export default (() => {
 				{" "}специально для конкурса «Цифровой прорыв». 2021
 			</Override>
 		</Components.Footer>
-		<Link href="#">
-			Some text
-		</Link>
-		<Input />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
