@@ -21,6 +21,7 @@ export default (() => {
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/6079ce657c7120001f1ee250/images/Frame%203.png?v=2021-04-16T18:12:25.173Z"} />
 			<meta name={"msapplication-TileColor"} content={"#f7f9fe"} />
 		</Helmet>
+		<Components.Hack />
 		<Section padding="10px 0 10px 0">
 			<Override slot="SectionContent" min-height="none" min-width="none" />
 			<Box

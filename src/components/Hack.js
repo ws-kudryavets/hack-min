@@ -21,7 +21,7 @@ const Hack = props => {
 		if (document.querySelector('a[href="https://quarkly.io/"')) {
 			document.querySelector('a[href="https://quarkly.io/"').remove();
 		}
-	});
+	}, []);
 	return <div {...props}></div>;
 };
 
