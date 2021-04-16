@@ -2,14 +2,17 @@ import React, { useEffect } from 'react';
 import atomize from "@quarkly/atomize";
 
 const Hack = props => {
-	useEffect(() => {// var data = [{type: 'densitymapbox', lon: [10, 20, 30], lat: [15, 25, 35], z: [1, 3, 2]}];
+	useEffect(() => {
+		// var data = [{type: 'densitymapbox', lon: [10, 20, 30], lat: [15, 25, 35], z: [1, 3, 2]}];
 		// var layout = {width: 600, height: 400, mapbox: {style: 'stamen-terrain'}};
 		// document.querySelector('#myDiv') && Plotly.newPlot('myDiv', data, layout);
-		// if (document.querySelector('a[href="https://quarkly.io/"')) {
-		//   document.querySelector('a[href="https://quarkly.io/"').remove();
-		// } 
+		if (document.querySelector('a[href="https://quarkly.io/"')) {
+			document.querySelector('a[href="https://quarkly.io/"').remove();
+		}
 	}, []);
-	return <div {...props}></div>;
+	return <div {...props}>
+		sdf
+	</div>;
 };
 
 export default atomize(Hack)({
