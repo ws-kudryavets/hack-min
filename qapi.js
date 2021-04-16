@@ -18,18 +18,18 @@ export default {
 		},
 		"6079ce657c7120001f1ee255": {
 			"id": "6079ce657c7120001f1ee255",
-			"name": "index",
+			"name": "Главная",
 			"pageUrl": "index"
 		},
 		"6079fe9d6de461001eb8783f": {
 			"id": "6079fe9d6de461001eb8783f",
 			"pageUrl": "chart-page",
-			"name": "Chart-page"
+			"name": "Мониторинг"
 		},
 		"607a027c23a143001e08f123": {
 			"id": "607a027c23a143001e08f123",
 			"pageUrl": "comand",
-			"name": "Comand"
+			"name": "Разработка"
 		}
 	},
 	"mode": "production",

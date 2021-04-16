@@ -6,14 +6,14 @@ const overrides = {
 	"box": {
 		"kind": "Box",
 		"props": {
-			"width": "1280px",
+			"width": "100%",
 			"height": "300px"
 		}
 	},
 	"image": {
 		"kind": "Image",
 		"props": {
-			"width": "1280px",
+			"width": "100%",
 			"src": "https://uploads.quarkly.io/6079ce657c7120001f1ee250/images/%D1%84%D1%83%D1%82%D0%B5%D1%80.png?v=2021-04-16T21:25:57.499Z"
 		}
 	},

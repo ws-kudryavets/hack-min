@@ -28,17 +28,8 @@ export default (() => {
 			background="--color-light"
 			display="flex"
 			flex-direction="column"
+			font="700 24px/28.8px --fontFamily-googleMontserrat"
 		>
-			<Text
-				font="--base"
-				text-transform="uppercase"
-				letter-spacing="1px"
-				max-width="850px"
-				color="--grey"
-				margin="0px 0px 8px 0px"
-			>
-				Eyebrow
-			</Text>
 			<Stack color="--grey" font="--base">
 				<StackItem width="50%" md-width="100%">
 					<Text
@@ -49,12 +40,13 @@ export default (() => {
 						color="--dark"
 						max-width="850px"
 					>
-						Heading
+						Упс.
 					</Text>
 				</StackItem>
 				<StackItem width="50%" md-width="100%">
 					<Text margin="0px">
-						It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
+						<br />
+						Эта страница ещё не разработана
 					</Text>
 				</StackItem>
 			</Stack>
@@ -88,6 +80,9 @@ export default (() => {
 			<script src={"https://cdn.plot.ly/plotly-latest.min.js"} place={"endOfHead"} rawKey={"607a0ed815bece49fec80856"} />
 			<script place={"endOfBody"} rawKey={"607a0ef07d0409aad24174f8"}>
 				{"var data = [{type: 'densitymapbox', lon: [10, 20, 30], lat: [15, 25, 35], z: [1, 3, 2]}];\n\nvar layout = {width: 600, height: 400, mapbox: {style: 'stamen-terrain'}};\n\nPlotly.newPlot('myDiv', data, layout);"}
+			</script>
+			<script place={"endOfBody"} rawKey={"607a14a2e19561e1c538b22b"}>
+				{"document.querySelector('a[href=\"https://quarkly.io/\"').remove()"}
 			</script>
 		</RawHtml>
 	</Theme>;
