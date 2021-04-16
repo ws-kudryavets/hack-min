@@ -175,7 +175,6 @@ export default (() => {
 			</Override>
 			<Override slot="image" width="100%" />
 		</Components.Footer>
-		<Components.Hack />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
