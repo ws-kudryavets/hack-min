@@ -96,6 +96,7 @@ export default (() => {
 								font="--liadMinobr"
 								border-width="1px"
 								name="Login"
+								flex="0 1 75%"
 							/>
 							<Override slot="LoginTitle" border-color="--color-minobrDarkBlue" color="--dark" margin="0 0px 16px 0px">
 								<Span font-weight="normal">
@@ -122,6 +123,7 @@ export default (() => {
 								margin="0px 10px 0 0px"
 								padding="6px 16px 10px 16px"
 								height="32px"
+								flex="0 1 75%"
 							/>
 							<Override slot="LoginError" border-color="#ff0000" />
 							<Override
@@ -130,10 +132,13 @@ export default (() => {
 								font="--liadMinobr"
 								color="--darkL1"
 								margin="0px 30px 0px 0px"
+								flex="1"
 							/>
-							<Override slot="LoginTitlePassword" color="--darkL1" font="--liadMinobr">
+							<Override slot="LoginTitlePassword" color="--darkL1" font="--liadMinobr" flex="1">
 								Пароль{" "}
 							</Override>
+							<Override slot="LoginEmailInput" display="flex" align-items="flex-start" justify-content="space-between" />
+							<Override slot="LoginPasswordInput" display="flex" justify-content="space-between" align-items="flex-start" />
 						</Components.LoginForm>
 					</Box>
 				</StackItem>

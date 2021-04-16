@@ -13,6 +13,12 @@ const overrides = {
 	'LoginInput': {
 		kind: 'Box'
 	},
+	'LoginEmailInput': {
+		kind: 'Box'
+	},
+	'LoginPasswordInput': {
+		kind: 'Box'
+	},
 	'LoginEmail': {
 		kind: 'Input'
 	},
@@ -58,18 +64,26 @@ const LoginForm = props => {
 		</Text>
 		    
 		<Box {...override('LoginInput')}>
+			    
+			<Box {...override('LoginEmailInput')}>
+				      
+				<Span {...override('LoginTitleEmail')}>
+					{override('LoginTitleEmail').children || 'Email'}
+				</Span>
+				      
+				<Input onChange={handleEmail} value={email} {...override('LoginEmail')} />
+				      
+			</Box>
 			      
-			<Span {...override('LoginTitleEmail')}>
-				{override('LoginTitleEmail').children || 'Email'}
-			</Span>
-			      
-			<Input onChange={handleEmail} value={email} {...override('LoginEmail')} />
-			      
-			<Span {...override('LoginTitlePassword')}>
-				{override('LoginTitlePassword').children || 'Password'}
-			</Span>
-			      
-			<Input onChange={handlePassword} value={password} {...override('LoginPassword')} />
+			<Box {...override('LoginPasswordInput')}>
+				      
+				<Span {...override('LoginTitlePassword')}>
+					{override('LoginTitlePassword').children || 'Password'}
+				</Span>
+				      
+				<Input onChange={handlePassword} value={password} {...override('LoginPassword')} />
+				      
+			</Box>
 			    
 		</Box>
 		    
