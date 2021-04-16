@@ -125,12 +125,6 @@ export default (() => {
 				{"window.PlotlyConfig = {MathJaxConfig: 'local'};"}
 			</script>
 			<script src={"https://cdn.plot.ly/plotly-latest.min.js"} place={"endOfHead"} rawKey={"607a0ed815bece49fec80856"} />
-			<script place={"endOfBody"} rawKey={"607a0ef07d0409aad24174f8"}>
-				{"var data = [{type: 'densitymapbox', lon: [10, 20, 30], lat: [15, 25, 35], z: [1, 3, 2]}];\n\nvar layout = {width: 600, height: 400, mapbox: {style: 'stamen-terrain'}};\n\nPlotly.newPlot('myDiv', data, layout);"}
-			</script>
-			<script place={"endOfBody"} rawKey={"607a14a2e19561e1c538b22b"}>
-				{"document.querySelector('a[href=\"https://quarkly.io/\"').remove()"}
-			</script>
 		</RawHtml>
 	</Theme>;
 });

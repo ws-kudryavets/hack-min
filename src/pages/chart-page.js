@@ -1,9 +1,9 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link } from "@quarkly/widgets";
+import { Theme, Link, Box, Text } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { RawHtml, Override } from "@quarkly/components";
+import { RawHtml, StackItem, Stack, Section, Override } from "@quarkly/components";
 import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
@@ -22,10 +22,46 @@ export default (() => {
 			<meta name={"msapplication-TileColor"} content={"#f7f9fe"} />
 		</Helmet>
 		<Components.ChartPage />
+		<Box />
+		<Text margin="16px 0px 16px 50px">
+			Карта России
+		</Text>
+		<Box height="400px" />
+		<Text margin="16px 0px 16px 50px" font="--h3Minobr">
+			Перечень регионов
+		</Text>
+		<Section>
+			<Stack>
+				{"    "}
+				<StackItem width="33%" display="flex">
+					{"        "}
+					<Text font="--lead" margin="0px 0px 0px 0px" display="inline-block">
+						{"            "}First Item{"\n        "}
+					</Text>
+					{"    "}
+				</StackItem>
+				{"    "}
+				<StackItem width="33%" display="flex">
+					{"        "}
+					<Text font="--lead" margin="0px 0px 0px 0px" display="inline-block">
+						{"            "}Second Item{"\n        "}
+					</Text>
+					{"    "}
+				</StackItem>
+				<StackItem width="33%" display="flex">
+					{"        "}
+					<Text font="--lead" margin="0px 0px 0px 0px" display="inline-block">
+						{"            "}Second Item{"\n        "}
+					</Text>
+					{"    "}
+				</StackItem>
+			</Stack>
+		</Section>
 		<div id="myDiv" />
 		<Components.Footer>
 			<Override slot="image" width="100%" />
 		</Components.Footer>
+		<Components.Hack />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
@@ -53,12 +89,6 @@ export default (() => {
 				{"window.PlotlyConfig = {MathJaxConfig: 'local'};"}
 			</script>
 			<script src={"https://cdn.plot.ly/plotly-latest.min.js"} place={"endOfHead"} rawKey={"607a0ed815bece49fec80856"} />
-			<script place={"endOfBody"} rawKey={"607a0ef07d0409aad24174f8"}>
-				{"var data = [{type: 'densitymapbox', lon: [10, 20, 30], lat: [15, 25, 35], z: [1, 3, 2]}];\n\nvar layout = {width: 600, height: 400, mapbox: {style: 'stamen-terrain'}};\n\nPlotly.newPlot('myDiv', data, layout);"}
-			</script>
-			<script place={"endOfBody"} rawKey={"607a14a2e19561e1c538b22b"}>
-				{"document.querySelector('a[href=\"https://quarkly.io/\"').remove()"}
-			</script>
 		</RawHtml>
 	</Theme>;
 });
