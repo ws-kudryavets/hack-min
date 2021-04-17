@@ -21,6 +21,7 @@ export default (() => {
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/6079ce657c7120001f1ee250/images/Frame%203.png?v=2021-04-16T18:12:25.173Z"} />
 			<meta name={"msapplication-TileColor"} content={"#f7f9fe"} />
 		</Helmet>
+		<Components.Hack />
 		<Components.EmbedJS />
 		<Components.ChartPage />
 		<Box />
@@ -58,7 +59,6 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<div id="myDiv" />
 		<div id="a9bfa545-420c-4036-99ab-cfc289b59bd4" />
 		<Components.Footer>
 			<Override slot="image" width="100%" />
