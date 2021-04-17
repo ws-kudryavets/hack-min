@@ -4,6 +4,7 @@ import { Theme, Link, Text, Box } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Stack, Section } from "@quarkly/components";
+import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"comand"} />
@@ -20,48 +21,58 @@ export default (() => {
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/6079ce657c7120001f1ee250/images/Frame%203.png?v=2021-04-16T18:12:25.173Z"} />
 			<meta name={"msapplication-TileColor"} content={"#f7f9fe"} />
 		</Helmet>
+		<Components.Header />
 		<Section padding="64px 0" sm-padding="40px 0" font="--base" color="--dark">
-			<Text
-				as="h1"
-				font="--headline1"
-				md-font="--headline2"
-				max-width="520px"
-				margin="0 auto 5px auto"
-				text-align="center"
-			>
-				Мамихлапинатана
-			</Text>
 			<Text
 				as="p"
 				color="--grey"
 				max-width="520px"
 				margin="0 auto"
 				text-align="center"
-				font="--lead"
+				font="14px/100% Montserrat, sans-serif"
+				letter-spacing="inherit"
 			>
-				можно упорно учиться{" "}
-				<br />
-				{" "}можно научиться упорно учиться
-				<br />
-				{"\n"}можно учить тех кто хочет научиться упорно учиться
+				к о м а н д а
+			</Text>
+			<Text
+				as="h1"
+				font="--h2Minobr"
+				md-font="--headline2"
+				max-width="520px"
+				margin="0 auto 5px auto"
+				text-align="center"
+				width="auto"
+			>
+				Мамихлапинатана
 			</Text>
 			<Stack margin-top="40px">
 				<StackItem width="25%" lg-width="50%" sm-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" />
-					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://images.unsplash.com/photo-1503443207922-dff7d543fd0e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=582&q=80) 50% 0/cover no-repeat" />
+					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://uploads.quarkly.io/6079ce657c7120001f1ee250/images/image%2019.png?v=2021-04-17T12:28:20.615Z) 50% 0/cover no-repeat" />
 					<Text color="--grey" margin="0">
 						Manager
 					</Text>
 					<Text as="h3" font="--headline3" margin="5px 0 20px 0">
-						Артём Попов
+						Артём{" "}
+						<br />
+						Попов
 					</Text>
 					<Text as="p" margin="20px 0 5px 0">
-						This space is 100% editable. Use it to introduce a team member, describe their work experience and role within the company. This is also a great place to highlight a team member's strong sides.
+						Менеджер проекта, python разработчик.
+						<br />
+						<br />
+						<Link href="#">
+							{"\n"}popov.md5@gmail.com{"\n\n"}
+						</Link>
+						<br />
+						{"\n"}@nuclear100{"\n\n"}
+						<br />
+						{"\n\n"}
 					</Text>
 				</StackItem>
 				<StackItem width="25%" lg-width="50%" sm-width="100%" sm-margin-top="24px">
 					<Override slot="StackItemContent" flex-direction="column" />
-					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://images.unsplash.com/photo-1546672741-d327539d5f13?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80) 50% 0/cover no-repeat" />
+					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://uploads.quarkly.io/6079ce657c7120001f1ee250/images/image%2018.png?v=2021-04-17T12:28:20.625Z) 50% 0/cover no-repeat" />
 					<Text color="--grey" margin="0">
 						Developer
 					</Text>
@@ -69,12 +80,20 @@ export default (() => {
 						Александр Кудрявец
 					</Text>
 					<Text as="p" margin="20px 0 5px 0">
-						This space is 100% editable. Use it to introduce a team member, describe their work experience and role within the company. This is also a great place to highlight a team member's strong sides.
+						FullStack разработчик{"\n\n"}
+						<br />
+						<br />
+						<Link href="#">
+							{"\n"}07aleks26@gmail.com{"\n\n"}
+						</Link>
+						<br />
+						@aleks_kudr{"\n\n"}
+						<br />
 					</Text>
 				</StackItem>
 				<StackItem width="25%" lg-width="50%" sm-width="100%" sm-margin-top="24px">
 					<Override slot="StackItemContent" flex-direction="column" />
-					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80) 50% 0/cover no-repeat" />
+					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://uploads.quarkly.io/6079ce657c7120001f1ee250/images/Mask%20Group.png?v=2021-04-17T12:28:20.619Z) 50% 0/cover no-repeat" />
 					<Text color="--grey" margin="0">
 						Data scientist
 					</Text>
@@ -82,25 +101,42 @@ export default (() => {
 						Елизавета Виноградова
 					</Text>
 					<Text as="p" margin="20px 0 5px 0">
-						This space is 100% editable. Use it to introduce a team member, describe their work experience and role within the company. This is also a great place to highlight a team member's strong sides.
+						Data Scientist
+						<br />
+						<br />
+						<Link href="#">
+							{"\n"}vealiisa@mail.ru
+						</Link>
+						<br />
+						@LisaVino{"\n\n\n\n"}
 					</Text>
 				</StackItem>
 				<StackItem width="25%" lg-width="50%" sm-width="100%" sm-margin-top="24px">
 					<Override slot="StackItemContent" flex-direction="column" />
-					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://images.unsplash.com/photo-1510227272981-87123e259b17?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=666&q=80) 50% 0/cover no-repeat" />
+					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://uploads.quarkly.io/6079ce657c7120001f1ee250/images/image%2017.png?v=2021-04-17T12:28:20.614Z) 50% 0/cover no-repeat" />
 					<Text color="--grey" margin="0">
 						Designer
 						<br />
 					</Text>
 					<Text as="h3" font="--headline3" margin="5px 0 20px 0">
-						Юлия Карло
+						Юлия{" "}
+						<br />
+						Карло
 					</Text>
 					<Text as="p" margin="20px 0 5px 0">
-						This space is 100% editable. Use it to introduce a team member, describe their work experience and role within the company. This is also a great place to highlight a team member's strong sides.
+						Админ команды, UI/UX дизайнер{"\n\n\n"}
+						<br />
+						<br />
+						<Link href="#">
+							{"\n"}freeza.carlo@gmail.com{"\n\n"}
+						</Link>
+						<br />
+						{"\n"}@YukkiCarlo{"\n\n"}
 					</Text>
 				</StackItem>
 			</Stack>
 		</Section>
+		<Components.Footer />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}

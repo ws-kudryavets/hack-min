@@ -25,37 +25,73 @@ export default (() => {
 		<Components.Header />
 		<Components.ChartPage display="flex" align-items="center" justify-content="center" />
 		<Box />
-		<Text margin="16px 0px 16px 50px">
+		<Text margin="16px 0px 16px 50px" font="--h2Minobr">
 			Карта России
 		</Text>
 		<Box height="400px">
+			<div id="5ea125cc-21f7-401e-adfb-003960b4c4f0" />
 			<div id="a9bfa545-420c-4036-99ab-cfc289b59bd4" />
 		</Box>
-		<Text margin="16px 0px 16px 50px" font="--h3Minobr">
-			Перечень регионов
+		<Text margin="16px 0px 16px 50px" font="bold 24px/120% --fontFamily-googleMontserrat">
+			Федеральные округа
 		</Text>
 		<Section>
 			<Stack>
 				{"    "}
-				<StackItem width="33%" display="flex">
+				<StackItem width="25%" display="flex">
+					{"        "}
+					<Text font="--lead" margin="0px 0px 0px 0px" display="inline-block" width="25%">
+						Центральный{" "}
+					</Text>
+					{"    "}
+				</StackItem>
+				<StackItem width="25%" display="flex">
 					{"        "}
 					<Text font="--lead" margin="0px 0px 0px 0px" display="inline-block">
-						{"            "}First Item{"\n        "}
+						Северо-Западный
+					</Text>
+					{"    "}
+				</StackItem>
+				<StackItem width="25%" display="flex">
+					{"        "}
+					<Text font="--lead" margin="0px 0px 0px 0px" display="inline-block">
+						Южный
+					</Text>
+					{"    "}
+				</StackItem>
+				<StackItem display="flex" width="25%">
+					{"        "}
+					<Text font="--lead" margin="0px 0px 0px 0px" display="inline-block">
+						Северо-Кавказский
+					</Text>
+					{"    "}
+				</StackItem>
+				<StackItem display="flex" width="25%">
+					{"        "}
+					<Text font="--lead" margin="0px 0px 0px 0px" display="inline-block" width="25%">
+						Приволжский
 					</Text>
 					{"    "}
 				</StackItem>
 				{"    "}
-				<StackItem width="33%" display="flex">
+				<StackItem display="flex" width="25%">
 					{"        "}
 					<Text font="--lead" margin="0px 0px 0px 0px" display="inline-block">
-						{"            "}Second Item{"\n        "}
+						Уральский
 					</Text>
 					{"    "}
 				</StackItem>
-				<StackItem width="33%" display="flex">
+				<StackItem display="flex" width="25%">
 					{"        "}
 					<Text font="--lead" margin="0px 0px 0px 0px" display="inline-block">
-						{"            "}Second Item{"\n        "}
+						Сибирский
+					</Text>
+					{"    "}
+				</StackItem>
+				<StackItem width="25%" display="flex">
+					{"        "}
+					<Text font="--lead" margin="0px 0px 0px 0px" display="inline-block">
+						Дальневосточный
 					</Text>
 					{"    "}
 				</StackItem>
