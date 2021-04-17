@@ -176,6 +176,9 @@ export default (() => {
 		</Link>
 		<RawHtml>
 			<script src={"https://cdn.plot.ly/plotly-latest.min.js"} place={"endOfHead"} rawKey={"607b38e3cb6f61d825aac5b8"} />
+			<style place={"endOfHead"} rawKey={"607b491ce4497f8ba39e6a65"}>
+				{".chart-style {\nheight: 100vh;\n}"}
+			</style>
 		</RawHtml>
 	</Theme>;
 });
