@@ -25,7 +25,7 @@ export default (() => {
 		<Components.Header />
 		<Components.GoDash />
 		<Text margin="16px 0px 16px 50px" font="--h2Minobr">
-			Дефицит/профицит IT кадров по округам России
+			Дефицит/профицит IT кадров по округам России на март-апрель 2021
 		</Text>
 		<div class="chart-style" id="5df4747d-a543-4499-9479-180cb1e9447d" />
 		<div class="chart-style" id="0603729e-6fc2-4147-a42d-1ad383ea34f3" />
