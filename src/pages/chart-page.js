@@ -23,24 +23,24 @@ export default (() => {
 		</Helmet>
 		<Components.Hack />
 		<Components.Header />
-		<div id="0603729e-6fc2-4147-a42d-1ad383ea34f3" />
+		<div class="chart-style" id="0603729e-6fc2-4147-a42d-1ad383ea34f3" />
 		<Box />
-		<div id="5ea125cc-21f7-401e-adfb-003960b4c4f0" />
+		<div class="chart-style" id="5ea125cc-21f7-401e-adfb-003960b4c4f0" />
 		<Text margin="16px 0px 16px 50px" font="--h2Minobr">
 			Карта России
 		</Text>
-		<div id="5df4747d-a543-4499-9479-180cb1e9447d" />
+		<div class="chart-style" id="5df4747d-a543-4499-9479-180cb1e9447d" />
 		<Text margin="16px 0px 16px 50px" font="bold 24px/120% --fontFamily-googleMontserrat">
 			Федеральные округа
 		</Text>
-		<div id="2710fd26-0c15-4357-85d0-6961c700434f" />
-		<div id="34a9c352-7ae8-431e-9c00-d8165caebf5b" />
-		<div id="2531717d-670f-40e0-ac5e-8200d8c67e57" />
-		<div id="45c4f6fd-400f-418d-a535-943bd77d1e05" />
-		<div id="f27023b2-39b4-4a3b-982c-8f7881f95b86" />
-		<div id="cb9bb09b-fe5e-4ce7-9f4d-ab15b622bcdb" />
-		<div id="a7cfd1c1-87a9-448b-ac91-ea55c497af19" />
-		<div id="1affe2b2-1980-4221-b48b-4576b2a391ea" />
+		<div class="chart-style" id="2710fd26-0c15-4357-85d0-6961c700434f" />
+		<div class="chart-style" id="34a9c352-7ae8-431e-9c00-d8165caebf5b" />
+		<div class="chart-style" id="2531717d-670f-40e0-ac5e-8200d8c67e57" />
+		<div class="chart-style" id="45c4f6fd-400f-418d-a535-943bd77d1e05" />
+		<div class="chart-style" id="f27023b2-39b4-4a3b-982c-8f7881f95b86" />
+		<div class="chart-style" id="cb9bb09b-fe5e-4ce7-9f4d-ab15b622bcdb" />
+		<div class="chart-style" id="a7cfd1c1-87a9-448b-ac91-ea55c497af19" />
+		<div class="chart-style" id="1affe2b2-1980-4221-b48b-4576b2a391ea" />
 		<Section>
 			<Stack>
 				{"    "}
@@ -161,7 +161,7 @@ export default (() => {
 			</script>
 			<script place={"endOfBody"} rawKey={"607b3657ff5699443170fefd"} />
 			<style place={"endOfHead"} rawKey={"607b41e62f3bdd9406dcb8d3"}>
-				{".js-plotly-plot {\nheight: 100vh;\n}"}
+				{".chart-style {\nheight: 100vh;\n}"}
 			</style>
 		</RawHtml>
 	</Theme>;
