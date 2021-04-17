@@ -1,9 +1,9 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Box, Hr, Text, Span, Strong } from "@quarkly/widgets";
+import { Theme, Link, Text, Box, Span, Strong } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { RawHtml, Override, Menu, Section, StackItem, Stack } from "@quarkly/components";
+import { RawHtml, Override, StackItem, Stack, Section } from "@quarkly/components";
 import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
@@ -22,31 +22,7 @@ export default (() => {
 			<meta name={"msapplication-TileColor"} content={"#f7f9fe"} />
 		</Helmet>
 		<Components.Hack />
-		<Section padding="10px 0 10px 0">
-			<Override slot="SectionContent" min-height="none" min-width="none" />
-			<Box
-				display="flex"
-				justify-content="space-between"
-				align-items="center"
-				flex-direction="row"
-				md-flex-direction="column"
-			>
-				<Image width="350px" src="https://uploads.quarkly.io/6079ce657c7120001f1ee250/images/logo.svg?v=2021-04-16T18:58:04.338Z" min-width="none" min-height="none" />
-				<Menu
-					display="flex"
-					justify-content="center"
-					font="--base"
-					font-weight="700"
-					md-flex-direction="column"
-					md-align-items="center"
-				>
-					<Override slot="link" text-decoration="none" color="--dark" padding="6px 12px" />
-					<Override slot="link-active" color="--primary" />
-					<Override slot="item" padding="6px" />
-				</Menu>
-			</Box>
-		</Section>
-		<Hr margin="0 0px 0 0px" padding="0px 0px 0 0px" />
+		<Components.Header />
 		<Section
 			color="#E7EAF2"
 			padding="100px 0"
@@ -93,7 +69,7 @@ export default (() => {
 								margin="0px 10px 15px 0px"
 								border-color="#5e6b87"
 								border-style="solid"
-								color="#F7F9FE"
+								color="#060606"
 								font="--liadMinobr"
 								border-width="1px"
 								name="Login"

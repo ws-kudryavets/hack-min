@@ -22,12 +22,15 @@ export default (() => {
 			<meta name={"msapplication-TileColor"} content={"#f7f9fe"} />
 		</Helmet>
 		<Components.Hack />
+		<Components.Header />
 		<Components.ChartPage />
 		<Box />
 		<Text margin="16px 0px 16px 50px">
 			Карта России
 		</Text>
-		<Box height="400px" />
+		<Box height="400px">
+			<div id="a9bfa545-420c-4036-99ab-cfc289b59bd4" />
+		</Box>
 		<Text margin="16px 0px 16px 50px" font="--h3Minobr">
 			Перечень регионов
 		</Text>
@@ -58,7 +61,6 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<div id="a9bfa545-420c-4036-99ab-cfc289b59bd4" />
 		<Components.Footer>
 			<Override slot="image" width="100%" />
 		</Components.Footer>

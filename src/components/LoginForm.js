@@ -81,7 +81,7 @@ const LoginForm = props => {
 					{override('LoginTitlePassword').children || 'Password'}
 				</Span>
 				      
-				<Input onChange={handlePassword} value={password} {...override('LoginPassword')} />
+				<Input type="password" onChange={handlePassword} value={password} {...override('LoginPassword')} />
 				      
 			</Box>
 			    
