@@ -1,7 +1,7 @@
 export { default as Header } from "./Header"
 export { default as Footer } from "./Footer"
 export { default as Hack } from "./Hack"
-export { default as BigMap } from "./BigMap"
+export { default as GoDash } from "./GoDash"
 export { default as EmbedJS } from "./EmbedJS"
 export { default as Data } from "./Data"
 export { default as ChartData } from "./ChartData"

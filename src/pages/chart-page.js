@@ -3,7 +3,7 @@ import theme from "theme";
 import { Theme, Link, Box, Text } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { RawHtml, StackItem, Stack, Section, Override } from "@quarkly/components";
+import { RawHtml, Override } from "@quarkly/components";
 import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
@@ -23,6 +23,7 @@ export default (() => {
 		</Helmet>
 		<Components.Hack />
 		<Components.Header />
+		<Components.GoDash />
 		<div class="chart-style" id="0603729e-6fc2-4147-a42d-1ad383ea34f3" />
 		<Box />
 		<div class="chart-style" id="5ea125cc-21f7-401e-adfb-003960b4c4f0" />
@@ -41,71 +42,9 @@ export default (() => {
 		<div class="chart-style" id="cb9bb09b-fe5e-4ce7-9f4d-ab15b622bcdb" />
 		<div class="chart-style" id="a7cfd1c1-87a9-448b-ac91-ea55c497af19" />
 		<div class="chart-style" id="1affe2b2-1980-4221-b48b-4576b2a391ea" />
-		<Section>
-			<Stack>
-				{"    "}
-				<StackItem width="25%" display="flex">
-					<Text font="--lead" margin="0px 0px 0px 0px" display="inline-block" width="25%">
-						Центральный{" "}
-					</Text>
-					{"    "}
-				</StackItem>
-				<StackItem width="25%" display="flex">
-					{"        "}
-					<Text font="--lead" margin="0px 0px 0px 0px" display="inline-block">
-						Северо-Западный
-					</Text>
-					{"    "}
-				</StackItem>
-				<StackItem width="25%" display="flex">
-					{"        "}
-					<Text font="--lead" margin="0px 0px 0px 0px" display="inline-block">
-						Южный
-					</Text>
-					{"    "}
-				</StackItem>
-				<StackItem display="flex" width="25%">
-					{"        "}
-					<Text font="--lead" margin="0px 0px 0px 0px" display="inline-block">
-						Северо-Кавказский
-					</Text>
-					{"    "}
-				</StackItem>
-				<StackItem display="flex" width="25%">
-					{"        "}
-					<Text font="--lead" margin="0px 0px 0px 0px" display="inline-block" width="25%">
-						Приволжский
-					</Text>
-					{"    "}
-				</StackItem>
-				{"    "}
-				<StackItem display="flex" width="25%">
-					{"        "}
-					<Text font="--lead" margin="0px 0px 0px 0px" display="inline-block">
-						Уральский
-					</Text>
-					{"    "}
-				</StackItem>
-				<StackItem display="flex" width="25%">
-					{"        "}
-					<Text font="--lead" margin="0px 0px 0px 0px" display="inline-block">
-						Сибирский
-					</Text>
-					{"    "}
-				</StackItem>
-				<StackItem width="25%" display="flex">
-					{"        "}
-					<Text font="--lead" margin="0px 0px 0px 0px" display="inline-block">
-						Дальневосточный
-					</Text>
-					{"    "}
-				</StackItem>
-			</Stack>
-		</Section>
 		<Components.Footer>
 			<Override slot="image" width="100%" />
 		</Components.Footer>
-		<Components.BigMap />
 		<Components.EmbedJS />
 		<Link
 			font={"--capture"}
