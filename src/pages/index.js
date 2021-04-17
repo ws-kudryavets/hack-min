@@ -1,9 +1,9 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Box, Span, Strong } from "@quarkly/widgets";
+import { Theme, Link, Image, Box, Hr, Text, Span, Strong } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { RawHtml, Override, StackItem, Stack, Section } from "@quarkly/components";
+import { RawHtml, Override, Section, StackItem, Stack } from "@quarkly/components";
 import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
@@ -22,7 +22,21 @@ export default (() => {
 			<meta name={"msapplication-TileColor"} content={"#f7f9fe"} />
 		</Helmet>
 		<Components.Hack />
-		<Components.Header />
+		<Box>
+			<Section padding="10px 0 10px 0">
+				<Override slot="SectionContent" min-height="none" min-width="none" />
+				<Box
+					display="flex"
+					justify-content="space-between"
+					align-items="center"
+					flex-direction="row"
+					md-flex-direction="column"
+				>
+					<Image width="350px" src="https://uploads.quarkly.io/6079ce657c7120001f1ee250/images/logo.svg?v=2021-04-16T18:58:04.338Z" min-width="none" min-height="none" />
+				</Box>
+			</Section>
+			<Hr margin="0 0px 0 0px" padding="0px 0px 0 0px" />
+		</Box>
 		<Section
 			color="#E7EAF2"
 			padding="100px 0"

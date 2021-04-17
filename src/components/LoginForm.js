@@ -36,8 +36,8 @@ const overrides = {
 	}
 };
 const defaults = {
-	email: 'md5@mail.com',
-	password: 'ghjcnjqrk.x'
+	email: '123@mail.com',
+	password: '123'
 };
 
 const LoginForm = props => {
