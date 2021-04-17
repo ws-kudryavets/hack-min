@@ -112,6 +112,14 @@ export default {
 					"place": "endOfBody",
 					"tag": "script",
 					"data": {}
+				},
+				"607b41e62f3bdd9406dcb8d3": {
+					"name": "style",
+					"place": "endOfHead",
+					"tag": "style",
+					"data": {
+						"content": ".js-plotly-plot {\nheight: 100%;\n}"
+					}
 				}
 			}
 		},
