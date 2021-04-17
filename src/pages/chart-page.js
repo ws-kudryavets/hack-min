@@ -23,7 +23,7 @@ export default (() => {
 		</Helmet>
 		<Components.Hack />
 		<Components.Header />
-		<Components.ChartPage />
+		<Components.ChartPage display="flex" align-items="center" justify-content="center" />
 		<Box />
 		<Text margin="16px 0px 16px 50px">
 			Карта России
