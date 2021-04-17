@@ -22,7 +22,6 @@ export default (() => {
 			<meta name={"msapplication-TileColor"} content={"#f7f9fe"} />
 		</Helmet>
 		<Components.Hack />
-		<Components.EmbedJS />
 		<Components.ChartPage />
 		<Box />
 		<Text margin="16px 0px 16px 50px">
@@ -63,6 +62,7 @@ export default (() => {
 		<Components.Footer>
 			<Override slot="image" width="100%" />
 		</Components.Footer>
+		<Components.EmbedJS />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
