@@ -1,7 +1,8 @@
 import React from 'react';
 import { Box } from '@quarkly/widgets';
 import { useOverrides } from '@quarkly/components';
-import Chart from "react-google-charts"; // import atomize from "@quarkly/atomize";
+import Widget from './Widget'; // import Chart from "react-google-charts";
+// import atomize from "@quarkly/atomize";
 
 const overrides = {
 	'ChartPageMain': {
@@ -17,6 +18,8 @@ const ChartPage = props => {
 	return <Box {...rest}>
 		  
 		<Box {...override('ChartPageMain')}>
+			  
+			<Widget type="GEO_MAP" keyword="егэ по информатике" url="https://ssl.gstatic.com/trends_nrtr/2051_RC11/embed_loader.js" />
 			  
 		</Box>
 		  
