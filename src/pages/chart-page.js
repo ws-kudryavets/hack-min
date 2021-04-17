@@ -25,11 +25,11 @@ export default (() => {
 		<Components.Header />
 		<Components.ChartPage display="flex" align-items="center" justify-content="center" />
 		<Box />
+		<div id="5ea125cc-21f7-401e-adfb-003960b4c4f0" />
 		<Text margin="16px 0px 16px 50px" font="--h2Minobr">
 			Карта России
 		</Text>
-		<Box height="400px">
-			<div id="5ea125cc-21f7-401e-adfb-003960b4c4f0" />
+		<Box>
 			<div id="a9bfa545-420c-4036-99ab-cfc289b59bd4" />
 		</Box>
 		<Text margin="16px 0px 16px 50px" font="bold 24px/120% --fontFamily-googleMontserrat">
