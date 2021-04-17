@@ -78,6 +78,10 @@ export default (() => {
 				{"window.PlotlyConfig = {MathJaxConfig: 'local'};"}
 			</script>
 			<script src={"https://cdn.plot.ly/plotly-latest.min.js"} place={"endOfHead"} rawKey={"607a0ed815bece49fec80856"} />
+			<script place={"endOfBody"} rawKey={"607aef8d03a3cd71e3fb750f"}>
+				{"trends.embed.renderExploreWidget(\"GEO_MAP\", {\"comparisonItem\":[{\"keyword\":\"егэ по информатике\",\"geo\":\"RU\",\"time\":\"now 7-d\"}],\"category\":0,\"property\":\"\"}, {\"exploreQuery\":\"date=now%207-d&geo=RU&q=%D0%B5%D0%B3%D1%8D%20%D0%BF%D0%BE%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B5\",\"guestPath\":\"https://trends.google.com:443/trends/embed/\"}); "}
+			</script>
+			<script src={"https://ssl.gstatic.com/trends_nrtr/2431_RC04/embed_loader.js"} place={"endOfHead"} rawKey={"607aefbbc587958bebe22c24"} />
 		</RawHtml>
 	</Theme>;
 });
