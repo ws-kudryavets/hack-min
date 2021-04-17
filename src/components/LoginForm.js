@@ -53,7 +53,7 @@ const LoginForm = props => {
 
 	const handlePassword = e => setPassword(e.target.value);
 
-	const handleLogin = () => defaults.email === email && defaults.password === password && window.location.replace('/chart-page') || setError(true);
+	const handleLogin = () => defaults.email === email && defaults.password === password && sessionStorage.setItem('test', 123) && window.location.replace('/chart-page') || setError(true);
 
 	return <Box {...rest} {...override('LoginForm')}>
 		    

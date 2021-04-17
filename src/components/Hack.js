@@ -3,6 +3,9 @@ import atomize from "@quarkly/atomize";
 
 const Hack = props => {
 	useEffect(() => {
+		// if (window.location.pathname !== '/' && sessionStorage.getItem('test') !== 123) {
+		//   window.location.replace('/');
+		// }
 		if (document.querySelector('a[href="https://quarkly.io/"')) {
 			document.querySelector('a[href="https://quarkly.io/"').hidden = true;
 		}

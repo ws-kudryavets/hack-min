@@ -29,7 +29,7 @@ export default (() => {
 				margin="0 auto 5px auto"
 				text-align="center"
 			>
-				We are cute
+				Мамихлапинатана
 			</Text>
 			<Text
 				as="p"
@@ -39,17 +39,21 @@ export default (() => {
 				text-align="center"
 				font="--lead"
 			>
-				The smartest people work every day to provide the best service and to make our clients happy
+				можно упорно учиться{" "}
+				<br />
+				{" "}можно научиться упорно учиться
+				<br />
+				{"\n"}можно учить тех кто хочет научиться упорно учиться
 			</Text>
 			<Stack margin-top="40px">
 				<StackItem width="25%" lg-width="50%" sm-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" />
 					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://images.unsplash.com/photo-1503443207922-dff7d543fd0e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=582&q=80) 50% 0/cover no-repeat" />
 					<Text color="--grey" margin="0">
-						CEO
+						Manager
 					</Text>
 					<Text as="h3" font="--headline3" margin="5px 0 20px 0">
-						Nathan K. Joe
+						Артём Попов
 					</Text>
 					<Text as="p" margin="20px 0 5px 0">
 						This space is 100% editable. Use it to introduce a team member, describe their work experience and role within the company. This is also a great place to highlight a team member's strong sides.
@@ -62,7 +66,7 @@ export default (() => {
 						Developer
 					</Text>
 					<Text as="h3" font="--headline3" margin="5px 0 20px 0">
-						David R. Lema
+						Александр Кудрявец
 					</Text>
 					<Text as="p" margin="20px 0 5px 0">
 						This space is 100% editable. Use it to introduce a team member, describe their work experience and role within the company. This is also a great place to highlight a team member's strong sides.
@@ -72,10 +76,10 @@ export default (() => {
 					<Override slot="StackItemContent" flex-direction="column" />
 					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80) 50% 0/cover no-repeat" />
 					<Text color="--grey" margin="0">
-						Marketing
+						Data scientist
 					</Text>
 					<Text as="h3" font="--headline3" margin="5px 0 20px 0">
-						Janet E. Morey
+						Елизавета Виноградова
 					</Text>
 					<Text as="p" margin="20px 0 5px 0">
 						This space is 100% editable. Use it to introduce a team member, describe their work experience and role within the company. This is also a great place to highlight a team member's strong sides.
@@ -89,8 +93,7 @@ export default (() => {
 						<br />
 					</Text>
 					<Text as="h3" font="--headline3" margin="5px 0 20px 0">
-						Claire R. Peery
-						<br />
+						Юлия Карло
 					</Text>
 					<Text as="p" margin="20px 0 5px 0">
 						This space is 100% editable. Use it to introduce a team member, describe their work experience and role within the company. This is also a great place to highlight a team member's strong sides.
