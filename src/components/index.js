@@ -1,8 +1,6 @@
 export { default as Header } from "./Header"
 export { default as Footer } from "./Footer"
 export { default as Hack } from "./Hack"
-export { default as ChartPage } from "./ChartPage"
-export { default as Widget } from "./Widget"
 export { default as BigMap } from "./BigMap"
 export { default as EmbedJS } from "./EmbedJS"
 export { default as LoginForm } from "./LoginForm"

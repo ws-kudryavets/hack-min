@@ -29,7 +29,6 @@
         "@quarkly/widgets": "0.2.48",
         "@quarkly/atomize": "1.0.8",
         "react-dom": "^16.13.0",
-        "react-load-script": "latest",
         "styled-components": "^5.0.1",
         "react-router-dom": "^5.1.2",
         "react-router-hash-link": "^1.2.2",
