@@ -1,12 +1,11 @@
 import React from 'react';
 import atomize from "@quarkly/atomize";
+const Div = atomize.div();
 
-const Data = props => <div {...props}>
-	Say hello Data
-</div>;
+const TestDiv = props => <Div height="100vh" {...props} />;
 
-export default atomize(Data)({
-	name: "Data",
+export default atomize(TestDiv)({
+	name: "TestDiv",
 	effects: {
 		hover: ":hover"
 	},
@@ -14,12 +13,12 @@ export default atomize(Data)({
 	mixins: true,
 	description: {
 		// paste here description for your component
-		en: "Data — my awesome component"
+		en: "TestDiv — my awesome component"
 	},
 	propInfo: {
 		// paste here props description for your component
 		yourCustomProps: {
-			control: "input"
+			id: ""
 		}
 	}
 });
