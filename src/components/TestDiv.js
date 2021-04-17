@@ -17,8 +17,8 @@ export default atomize(TestDiv)({
 	},
 	propInfo: {
 		// paste here props description for your component
-		yourCustomProps: {
-			id: ""
+		id: {
+			control: "input"
 		}
 	}
 });
