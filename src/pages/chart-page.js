@@ -30,7 +30,7 @@ export default (() => {
 		<Text margin="16px 0px 16px 50px" font="--h2Minobr">
 			Карта России
 		</Text>
-		<Box max-width="50vw" margin="0px auto 0px auto">
+		<Box margin="0px auto 0px auto" height="100%">
 			<div id="a9bfa545-420c-4036-99ab-cfc289b59bd4" />
 		</Box>
 		<Text margin="16px 0px 16px 50px" font="bold 24px/120% --fontFamily-googleMontserrat">

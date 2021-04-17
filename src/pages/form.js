@@ -3,7 +3,7 @@ import theme from "theme";
 import { Theme, Link, Text, Box } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { RawHtml, StackItem, Stack, Section } from "@quarkly/components";
+import { RawHtml, StackItem, Override, Stack, Section } from "@quarkly/components";
 import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
@@ -26,48 +26,91 @@ export default (() => {
 			<Text as="h2" font="--h2Minobr" md-font="--headline2" margin="20px 0 0 0">
 				Сведения о численности обучающихся
 			</Text>
-			<Stack>
+			<Stack margin="20px -16px -16px -16px" font="--minobrbold" quarkly-title="head">
 				{"    "}
 				<StackItem width="50%" display="flex" flex="20">
 					{"        "}
-					<Text font="--lead" margin="0px 0px 0px 0px" display="inline-block">
-						{"            "}First Item{"\n        "}
+					<Text font="--liadMinobr" margin="0px 0px 0px 0px" display="inline-block">
+						Показатель
 					</Text>
 					{"    "}
 				</StackItem>
 				{"    "}
-				<StackItem width="50%" display="flex" flex="20">
+				<StackItem width="50%" display="flex" flex="10">
 					{"        "}
-					<Text font="--lead" margin="0px 0px 0px 0px" display="inline-block">
-						{"            "}Second Item{"\n        "}
+					<Text font="--liadMinobr" margin="0px 0px 0px 0px" display="inline-block">
+						Всего обучающихся
 					</Text>
 					{"    "}
 				</StackItem>
-				<StackItem width="50%" display="flex" flex="20">
+				<StackItem width="50%" display="flex" flex="10">
+					<Override slot="StackItemContent" font="--liadMinobr" />
 					{"        "}
-					<Text font="--lead" margin="0px 0px 0px 0px" display="inline-block">
-						{"            "}Second Item{"\n        "}
+					<Text font="--liadMinobr" margin="0px 0px 0px 0px" display="inline-block">
+						На очной форме обучения
 					</Text>
 					{"    "}
 				</StackItem>
-				<StackItem width="50%" display="flex" flex="20">
+				<StackItem width="50%" display="flex" flex="10">
+					<Override slot="StackItemContent" font="--liadMinobr" />
 					{"        "}
-					<Text font="--lead" margin="0px 0px 0px 0px" display="inline-block">
-						{"            "}Second Item{"\n        "}
+					<Text font="--liadMinobr" margin="0px 0px 0px 0px" display="inline-block">
+						Расчётная численность
 					</Text>
 					{"    "}
 				</StackItem>
+				<StackItem width="50%" display="flex" flex="10">
+					{"        "}
+					<Text font="--liadMinobr" margin="0px 0px 0px 0px" display="inline-block">
+						Среднегодовая численность обучающихся
+					</Text>
+					{"    "}
+				</StackItem>
+			</Stack>
+			<Stack margin="20px -16px -16px -16px" font="--minobrbold">
+				{"    "}
 				<StackItem width="50%" display="flex" flex="20">
 					{"        "}
-					<Text font="--lead" margin="0px 0px 0px 0px" display="inline-block">
-						{"            "}Second Item{"\n        "}
+					<Text font="--liadMinobr" margin="0px 0px 0px 0px" display="inline-block">
+						Показатель
+					</Text>
+					{"    "}
+				</StackItem>
+				{"    "}
+				<StackItem width="50%" display="flex" flex="10">
+					{"        "}
+					<Text font="--liadMinobr" margin="0px 0px 0px 0px" display="inline-block">
+						Всего обучающихся
+					</Text>
+					{"    "}
+				</StackItem>
+				<StackItem width="50%" display="flex" flex="10">
+					<Override slot="StackItemContent" font="--liadMinobr" />
+					{"        "}
+					<Text font="--liadMinobr" margin="0px 0px 0px 0px" display="inline-block">
+						На очной форме обучения
+					</Text>
+					{"    "}
+				</StackItem>
+				<StackItem width="50%" display="flex" flex="10">
+					<Override slot="StackItemContent" font="--liadMinobr" />
+					{"        "}
+					<Text font="--liadMinobr" margin="0px 0px 0px 0px" display="inline-block">
+						Расчётная численность
+					</Text>
+					{"    "}
+				</StackItem>
+				<StackItem width="50%" display="flex" flex="10">
+					{"        "}
+					<Text font="--liadMinobr" margin="0px 0px 0px 0px" display="inline-block">
+						Среднегодовая численность обучающихся
 					</Text>
 					{"    "}
 				</StackItem>
 			</Stack>
 			<Box
 				margin="36px 0 0 0"
-				padding="0 0 0 54px"
+				padding="0 0 0 0"
 				sm-padding="54px 0 0 0"
 				position="relative"
 				max-width="800px"
