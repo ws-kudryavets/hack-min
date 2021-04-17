@@ -35,7 +35,7 @@ export default {
 		"607b1cf923a143001e08f3a5": {
 			"id": "607b1cf923a143001e08f3a5",
 			"pageUrl": "form",
-			"name": "form"
+			"name": "Форма сбора данных"
 		}
 	},
 	"mode": "production",
