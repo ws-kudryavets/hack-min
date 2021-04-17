@@ -19,7 +19,11 @@ const ChartPage = props => {
 		  
 		<Box {...override('ChartPageMain')}>
 			  
-			<Widget type="GEO_MAP" keyword="егэ по информатике" url="https://ssl.gstatic.com/trends_nrtr/2051_RC11/embed_loader.js" />
+			<div id="widget">
+				  
+				<Widget type="GEO_MAP" keyword="егэ по информатике" url="https://ssl.gstatic.com/trends_nrtr/2051_RC11/embed_loader.js" />
+				  
+			</div>
 			  
 		</Box>
 		  
