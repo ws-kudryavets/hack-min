@@ -3,7 +3,7 @@ import theme from "theme";
 import { Theme, Link, Text, Box } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { Override, StackItem, Stack, Section } from "@quarkly/components";
+import { RawHtml, Override, StackItem, Stack, Section } from "@quarkly/components";
 import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
@@ -159,5 +159,8 @@ export default (() => {
 		>
 			Made on Quarkly
 		</Link>
+		<RawHtml>
+			<script src={"https://cdn.plot.ly/plotly-latest.min.js"} place={"endOfHead"} rawKey={"607b38e3cb6f61d825aac5b8"} />
+		</RawHtml>
 	</Theme>;
 });

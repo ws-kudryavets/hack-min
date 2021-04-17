@@ -129,6 +129,7 @@ export default (() => {
 			Made on Quarkly
 		</Link>
 		<RawHtml>
+			<script src={"https://cdn.plot.ly/plotly-latest.min.js"} place={"endOfHead"} rawKey={"607b38e3cb6f61d825aac5b8"} />
 			<script src={"https://cdn.plot.ly/plotly-latest.min.js"} place={"endOfHead"} rawKey={"607b353e7343674b423a53f8"} />
 			<script place={"endOfHead"} rawKey={"607b35570effe8d58a158763"}>
 				{"window.PlotlyConfig = {MathJaxConfig: 'local'};"}
