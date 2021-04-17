@@ -8,7 +8,8 @@ export default {
 				"6079ce657c7120001f1ee253",
 				"6079ce657c7120001f1ee255",
 				"6079fe9d6de461001eb8783f",
-				"607a027c23a143001e08f123"
+				"607a027c23a143001e08f123",
+				"607b1cf923a143001e08f3a5"
 			]
 		},
 		"6079ce657c7120001f1ee253": {
@@ -30,6 +31,11 @@ export default {
 			"id": "607a027c23a143001e08f123",
 			"pageUrl": "comand",
 			"name": "Разработка"
+		},
+		"607b1cf923a143001e08f3a5": {
+			"id": "607b1cf923a143001e08f3a5",
+			"pageUrl": "form",
+			"name": "form"
 		}
 	},
 	"mode": "production",

@@ -30,6 +30,13 @@ const pageStyles = {
         "border-color": "#E7EAF2",
         "border-radius": "2px",
         "letter-spacing": ""
+    },
+    "form": {
+        "font": "--minobrbold",
+        "background": "#ffffff",
+        "border-color": "#E7EAF2",
+        "border-radius": "2px",
+        "letter-spacing": ""
     }
 };
 
