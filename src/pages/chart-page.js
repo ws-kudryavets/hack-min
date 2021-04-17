@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Box, Text } from "@quarkly/widgets";
+import { Theme, Link, Text, Box } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
@@ -24,13 +24,13 @@ export default (() => {
 		<Components.Hack />
 		<Components.Header />
 		<Components.GoDash />
+		<Text margin="16px 0px 16px 50px" font="--h2Minobr">
+			Дефицит/профицит IT кадров по округам России
+		</Text>
+		<div class="chart-style" id="5df4747d-a543-4499-9479-180cb1e9447d" />
 		<div class="chart-style" id="0603729e-6fc2-4147-a42d-1ad383ea34f3" />
 		<Box />
 		<div class="chart-style" id="5ea125cc-21f7-401e-adfb-003960b4c4f0" />
-		<Text margin="16px 0px 16px 50px" font="--h2Minobr">
-			Карта России
-		</Text>
-		<div class="chart-style" id="5df4747d-a543-4499-9479-180cb1e9447d" />
 		<Text margin="16px 0px 16px 50px" font="bold 24px/120% --fontFamily-googleMontserrat">
 			Федеральные округа
 		</Text>
