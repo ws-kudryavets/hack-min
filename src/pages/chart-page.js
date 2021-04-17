@@ -161,7 +161,7 @@ export default (() => {
 			</script>
 			<script place={"endOfBody"} rawKey={"607b3657ff5699443170fefd"} />
 			<style place={"endOfHead"} rawKey={"607b41e62f3bdd9406dcb8d3"}>
-				{".js-plotly-plot {\nheight: 100%;\n}"}
+				{".js-plotly-plot {\nheight: 100vh;\n}"}
 			</style>
 		</RawHtml>
 	</Theme>;

@@ -118,7 +118,7 @@ export default {
 					"place": "endOfHead",
 					"tag": "style",
 					"data": {
-						"content": ".js-plotly-plot {\nheight: 100%;\n}"
+						"content": ".js-plotly-plot {\nheight: 100vh;\n}"
 					}
 				}
 			}
