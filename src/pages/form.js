@@ -1,9 +1,10 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link } from "@quarkly/widgets";
+import { Theme, Link, Text, Box } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { RawHtml, Section } from "@quarkly/components";
+import { RawHtml, StackItem, Stack, Section } from "@quarkly/components";
+import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"form"} />
@@ -20,7 +21,66 @@ export default (() => {
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/6079ce657c7120001f1ee250/images/Frame%203.png?v=2021-04-16T18:12:25.173Z"} />
 			<meta name={"msapplication-TileColor"} content={"#f7f9fe"} />
 		</Helmet>
-		<Section />
+		<Components.Header />
+		<Section color="--dark">
+			<Text as="h2" font="--h2Minobr" md-font="--headline2" margin="20px 0 0 0">
+				Сведения о численности обучающихся
+			</Text>
+			<Stack>
+				{"    "}
+				<StackItem width="50%" display="flex" flex="20">
+					{"        "}
+					<Text font="--lead" margin="0px 0px 0px 0px" display="inline-block">
+						{"            "}First Item{"\n        "}
+					</Text>
+					{"    "}
+				</StackItem>
+				{"    "}
+				<StackItem width="50%" display="flex" flex="20">
+					{"        "}
+					<Text font="--lead" margin="0px 0px 0px 0px" display="inline-block">
+						{"            "}Second Item{"\n        "}
+					</Text>
+					{"    "}
+				</StackItem>
+				<StackItem width="50%" display="flex" flex="20">
+					{"        "}
+					<Text font="--lead" margin="0px 0px 0px 0px" display="inline-block">
+						{"            "}Second Item{"\n        "}
+					</Text>
+					{"    "}
+				</StackItem>
+				<StackItem width="50%" display="flex" flex="20">
+					{"        "}
+					<Text font="--lead" margin="0px 0px 0px 0px" display="inline-block">
+						{"            "}Second Item{"\n        "}
+					</Text>
+					{"    "}
+				</StackItem>
+				<StackItem width="50%" display="flex" flex="20">
+					{"        "}
+					<Text font="--lead" margin="0px 0px 0px 0px" display="inline-block">
+						{"            "}Second Item{"\n        "}
+					</Text>
+					{"    "}
+				</StackItem>
+			</Stack>
+			<Box
+				margin="36px 0 0 0"
+				padding="0 0 0 54px"
+				sm-padding="54px 0 0 0"
+				position="relative"
+				max-width="800px"
+			>
+				<Text as="h3" font="--headline3" margin="10px 0">
+					Is there life on Mars?
+				</Text>
+				<Text as="p" font="--lead" margin="10px 0" color="--greyD2">
+					It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
+				</Text>
+			</Box>
+		</Section>
+		<Components.Footer />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}

@@ -30,7 +30,7 @@ export default (() => {
 		<Text margin="16px 0px 16px 50px" font="--h2Minobr">
 			Карта России
 		</Text>
-		<Box>
+		<Box max-width="50vw" margin="0px auto 0px auto">
 			<div id="a9bfa545-420c-4036-99ab-cfc289b59bd4" />
 		</Box>
 		<Text margin="16px 0px 16px 50px" font="bold 24px/120% --fontFamily-googleMontserrat">
@@ -40,10 +40,12 @@ export default (() => {
 			<Stack>
 				{"    "}
 				<StackItem width="25%" display="flex">
-					{"        "}
-					<Text font="--lead" margin="0px 0px 0px 0px" display="inline-block" width="25%">
-						Центральный{" "}
-					</Text>
+					<Box>
+						<Text font="--lead" margin="0px 0px 0px 0px" display="inline-block" width="25%">
+							Центральный{" "}
+						</Text>
+						<div id="2710fd26-0c15-4357-85d0-6961c700434f" />
+					</Box>
 					{"    "}
 				</StackItem>
 				<StackItem width="25%" display="flex">
