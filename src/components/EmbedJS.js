@@ -1,9 +1,9 @@
 import React, { useRef, useLayoutEffect } from "react";
 import atomize from "@quarkly/atomize";
-import Data from './Data';
+import data from './Data';
 import { ege, dv, pr, sz, si, sk, ur, uj } from './ChartData'; // Put your JS here:
 
-const customJs = `${Data}${ege}${dv}${pr}${sz}${si}${sk}${ur}${uj}
+const customJs = `${data}${ege}${dv}${pr}${sz}${si}${sk}${ur}${uj}
 if (document.getElementById("5ea125cc-21f7-401e-adfb-003960b4c4f0")) {
                     Plotly.newPlot(
                         '5ea125cc-21f7-401e-adfb-003960b4c4f0',
